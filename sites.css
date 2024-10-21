@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    background-color: rgb(255, 255, 255); /* Soft White background for a clean, elegant look */
+    color: rgb(54, 69, 79); /* Charcoal Gray for the text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(54, 69, 79); /* Charcoal Gray for the header */
+    color: rgb(255, 255, 255); /* Soft White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Georgia', serif; /* Elegant font for the title */
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255); /* Soft White for menu links */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(107, 142, 35); /* Muted Olive for hover effect */
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: rgb(54, 69, 79); /* Charcoal Gray for headings */
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    border-bottom: 2px solid rgb(107, 142, 35); /* Muted Olive underline for elegance */
+    padding-bottom: 5px;
+}
+
+/* Compact paragraph styling */
+p {
+    font-size: 16px; /* Keep paragraph font size smaller for neatness */
+    color: rgb(54, 69, 79); /* Charcoal Gray for the text */
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 0 auto 20px auto; /* Center and add margin between sections */
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: rgb(54, 69, 79); /* Charcoal Gray for footer background */
+    color: rgb(255, 255, 255); /* Soft White text */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0 auto; /* Ensures centering */
+    display: inline-block; /* Makes the paragraph act as an inline element */
+    color: rgb(255, 255, 255);
+}
+
+footer a {
+    color: rgb(107, 142, 35); /* Muted Olive for links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
